@@ -311,7 +311,7 @@ To create a fixture:
 1.  If necessary, write a default constructor or `SetUp()` function to prepare
     the objects for each test. A common mistake is to spell `SetUp()` as
     **`Setup()`** with a small `u` - Use `override` in C++11 to make sure you
-    spelled it correctly
+    spelled it correctly.
 1.  If necessary, write a destructor or `TearDown()` function to release any
     resources you allocated in `SetUp()` . To learn when you should use the
     constructor/destructor and when you should use `SetUp()/TearDown()`, read
